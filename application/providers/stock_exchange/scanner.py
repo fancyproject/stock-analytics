@@ -4,6 +4,7 @@ from application.models.stock_price import StockPrice
 from application.database import db
 
 def downloadData():
+    xxxxxxxxxxxxx
     symbol = "CDR.WA" 
 
     data = yf.download(symbol, start="2014-01-17", end="2024-01-19")
@@ -23,5 +24,5 @@ def downloadData():
 
     db.session.commit()
     
-if __name__ == '__main__':
-    downloadData()
+# if __name__ == '__main__':
+#     downloadData()
