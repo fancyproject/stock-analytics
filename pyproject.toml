@@ -1,0 +1,2 @@
+[tool.poe.tasks]
+run_scanner.script = "application.providers.stock_exchange.scanner:downloadData"
